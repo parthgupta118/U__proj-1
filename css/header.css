@@ -1,0 +1,44 @@
+
+/* NavBar Styling */
+
+.header {
+    width: 100%;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    background-color: #28b485;
+}
+
+.nav-bar {
+    width: 65%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.9);
+    overflow: hidden;
+}
+
+.logo {
+    padding: 2rem;
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.nav-items {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+li {
+    list-style: none;
+    font-size: 2.8rem;
+    padding: 0rem 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.95);
+}
